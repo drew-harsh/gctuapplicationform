@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="personalinfo.css">
+</head>
+<body>
+    <form action="submit">
+    <h1>Ghana Communication Technology University</h1>
+    <h3>Personal Information</h3>
+<div class="name">
+<label for="Firstname">First Name</label>
+    <input type="text" required>
+    <label for="Lastname">Last Name</label>
+    <input type="text" required>
+    <label for="othernames">Other Names</label>
+    <input type="text">
+</div>
+<div class="birth">
+    <label for="birth">Date Of Birth</label>
+    <input type="date" required>
+</div>
+<div class="origin">
+    <label for="country">Country of Origin</label>
+    <input type="text">
+    <label for="hometown">Hometown</label>
+    <input type="text">
+</div>
+<div class="email">
+    <label for="email">Email</label>
+    <input type="email" placeholder="example@mail.com" required>
+</div>
+<div class="marital">
+    <label for="marital">Marital Status</label>
+    <select name="marital">
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="divorced">Divorced</option>
+        <option value="widowed">Widowed</option>
+    </select>
+</div>
+<div class="gender">
+    <label for="gender">Gender</label>
+    <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+</div>
+<div class="contact">
+    <label for="pcontact">Primary Contact</label>
+    <input type="text" placeholder="Start with country code">
+    <label for="scontact">Secondary Contact</label>
+    <input type="text" placeholder="Start with country code">
+</div>
+<div class="address">
+    <label for="line1">Address Line 1*</label>
+    <input type="text" required>
+    <label for="line2">Address Line 2</label>
+    <input type="text">
+    <label for="line3">Address Line 3</label>
+    <input type="text">
+</div>
+<div class="digitalAddress">
+    <label for="digitalAddress">Digital Address</label>
+    <input type="text" required>
+</div>
+<div class="nationalID">
+    <label for="nationalID">National ID Type</label>
+<select name="nationalID">
+    <option value="GH card">GH Card</option>
+    <option value="NHIS">NHIS</option>
+    <option value="Voters">Voter's ID</option>
+</select>
+</div>
+<div class="IDno">
+    <label for="IDno">National ID Number</label>
+    <input type="text" placeholder="Enter ID number here">
+</div>
+<div class="disability">
+    <label for="disability">Has any disability?</label>
+    <select name="disability">
+        <option value="yes">Yes</option>
+        <option value="no">NO</option>
+    </select>
+</div>
+<div class="yes">
+    <label for="yes">Disability </label>
+    <textarea></textarea>
+    <br>
+    <i class="ignore">NB:Ignore this if you chose NO</i>
+</div>
+<div class="employed">
+    <label for="employed">Is Employed?</label>
+    <select name="employed">
+        <option value="yes">Yes</option>
+        <option value="no">NO</option>
+    </select>
+</div>
+    </form>
+    <div class="nextpg2">
+        <a href="sponsor.html"><button>Next</button></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* ---------- GENERAL PAGE ---------- */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f5;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background: #fff;
+    width: 60%;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.12);
+}
+
+h1, h3 {
+    text-align: center;
+    color: #002b5c;
+    margin-bottom: 20px;
+}
+
+/* ---------- INPUTS & SELECT ---------- */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    border-color: #002b5c;
+    outline: none;
+}
+
+/* ---------- SPONSOR SECTION ---------- */
+.sponsor {
+    margin-bottom: 25px;
+}
+
+/* Sponsor details — 3 inputs side by side */
+.sponsor__details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* ---------- GUARDIAN SECTION ---------- */
+/* Your HTML has no wrapper; styling inputs directly */
+form input[type="text"] {
+    box-sizing: border-box;
+}
+
+/* ---------- BUTTON ---------- */
+a button {
+    background: #002b5c;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+a button:hover {
+    background: #004a99;
+    cursor: pointer;
+}
+
+/* Center the button wrapper */
+a {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    text-align: right;
+}

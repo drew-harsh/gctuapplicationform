@@ -1,0 +1,81 @@
+/* ---------- GENERAL PAGE ---------- */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f5;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background: #fff;
+    width: 60%;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.12);
+}
+
+h1, h3 {
+    text-align: center;
+    color: #002b5c;
+    margin-bottom: 20px;
+}
+
+/* ---------- LABELS, INPUTS & SELECTS ---------- */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    border-color: #002b5c;
+    outline: none;
+}
+
+/* ---------- SHS COURSE ---------- */
+.shs__course {
+    margin-bottom: 20px;
+}
+
+/* ---------- PROGRAMME SELECTION (First, Second, Third Choice) ---------- */
+.firstchoice,
+.secondchoice,
+.thirdchoice {
+    margin-bottom: 25px;
+}
+
+/* Make all 3 choice dropdowns consistent */
+.firstchoice select,
+.secondchoice select,
+.thirdchoice select {
+    width: 100%;
+}
+
+/* ---------- SUBMIT BUTTON ---------- */
+button {
+    background: #002b5c;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    margin: 25px auto;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #004a99;
+    cursor: pointer;
+}
